@@ -6,4 +6,5 @@ where filename is the name of the program that has to be run.
 It also contains programs written in C like The Guessing game
 which can be run on the commandline; clang -o filename filename.c
 and clicking enter then writing ./filename.
-In some compilers, g++ or gcc is used in place of clang
+In some compilers, g++ or gcc is used in place of clang.
+The projects in this file are unrelated.
