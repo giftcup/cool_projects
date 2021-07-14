@@ -33,7 +33,7 @@ int main (int argc, char *argv[])
     upkey = (rand()%26) + ckey;
     
     printf("Plaintext: ");
-    fgets(plaintext, sizeof(plaintext), stdin);
+    fgets(plaintext, sizeof(plaintext), stdin); 
     strcpy(ciphertext, plaintext);
     
     while (strcmp(plaintext, ciphertext) == 0)
