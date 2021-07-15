@@ -67,7 +67,6 @@ int main (int argc, char *argv[])
     
     //Decoding the encoded text
     int userkey;
-    char decoded[100];
     printf("Enter the key: ");
     scanf("%d", &userkey);
     if (userkey != ckey)
